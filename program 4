@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<conio.h>
+int main ()
+{ float fahrenhite, celcius; 
+printf("Enter temperature in fahrenhite:");
+scanf("%f",&fahrenhite);
+celcius= (fahrenhite - 32) * 9/5;
+printf("Temperature in celcius is :%2f", celcius);
+return 0; 
+}
